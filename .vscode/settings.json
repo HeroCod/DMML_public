@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "~/anaconda3/envs/DMML/bin/python",
+    "livePreview.defaultPreviewPath": "/plots/algorithmic_approach/all_regions.csv_HOURLY_MINUTES_OF_TRAVEL_TIME_forecast.html"
+}

@@ -1,0 +1,52 @@
+# Setting Up the Development Environment
+
+To set up the development environment for this project, please follow the steps below.
+
+## Step 1: Install Prerequisites
+
+Make sure you have installed the necessary prerequisites by following the steps contained in the `./INSTALL GUIDE.md` file.
+
+## Step 2: Clone the Repository
+
+Clone the project's repository to your local machine.
+
+```sh
+git clone https://github.com/HeroCod/DMML.git
+cd DMML
+```
+
+## Step 3: Run the Setup Script
+
+Run the `setup_env.sh` script to configure the project environment.
+
+```sh
+bash setup_env.sh
+```
+
+### What the Setup Script Does
+
+The `setup_env.sh` script performs the following actions:
+
+1. **Checks for the 'DMML' Conda Environment**: It checks if the `DMML` conda environment already exists on your machine.
+2. **Creates the Environment If Necessary**: If the `DMML` environment does not exist, the script will create it using the `environment.yml` file located in the `.vscode` folder.
+3. **Updates VSCode Settings**: It updates the VSCode `settings.json` file to point to the newly created conda environment, ensuring that your development environment is correctly configured within VSCode.
+
+By following these steps, the project environment should be properly set up and ready for use.
+
+
+# Copyright Notice
+
+The content within this repository, including but not limited to all source code files, documentation files, and any other files contained herein, is the intellectual property of Francesco Boldrini, or, when applicable, the respective owners of publicly available libraries or code.
+
+Unauthorized reproduction, distribution, or usage of any content from this repository is strictly prohibited unless express written consent has been granted by Francesco Boldrini or the respective content owners, where applicable. Such consent must be documented through a formal, signed contract.
+
+This code is also permitted for use solely in the context of the examination process at the University of Pisa. Post-examination, any copies of the code must be irretrievably destroyed.
+
+In the event that you have come into possession of any code from this repository without proper authorization, you are required to contact Francesco Boldrini at the address provided below, as the code may have been obtained through unlawful distribution.
+
+Copyright © 2024, Francesco Boldrini, All rights reserved.
+
+For any commercial inquiries, please contact:
+
+Francesco Boldrini
+Email: commercial@francesco-boldrini.com
